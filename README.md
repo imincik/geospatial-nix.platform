@@ -34,3 +34,15 @@ the platform administrator and is available for download from a local
 network or Internet.
 
 ![Single User Deployment](./figures/deployment-single-user.png)
+
+#### Classroom
+
+Classroom deployment mode consists of a single master server and
+multiple desktop machines providing user interface. Master server can
+be configured to provide multiple additional services such as Nix
+binary cache, NFS storage, database storage, Jupyter Hub or Kubernetes
+(K3S) cluster. User authentication is managed by AD/LDAP services
+provided by the local host network. User machines are launched from a
+local host network via HTTP boot and are centrally managed.
+
+![Classroom Deployment](./figures/deployment-classroom.png)
