@@ -49,3 +49,9 @@ provided by the local host network. User machines are launched from a
 local host network via HTTP boot and are centrally managed.
 
 ![Classroom Deployment](./figures/deployment-classroom.png)
+
+
+Design of this solution is based on experience gained during 
+[GIS.lab](https://gislab.readthedocs.io) development and its production
+use at the Czech Technical University in Prague and Charles University,
+Czech Republic.
